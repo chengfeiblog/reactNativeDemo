@@ -1,8 +1,6 @@
 'use strict';
-import React, {
-        Component,
-        ListView,
-    } from 'react-native';
+import React, { Component } from 'react';
+import  {ListView} from 'react-native';
 import {Provider} from 'react-redux/native';
 import App from './containers/app';
 import configureStore from './store/configureStore';
